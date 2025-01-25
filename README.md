@@ -1,4 +1,4 @@
-#JAVASCRIPT Live projects link
+# JAVASCRIPT Live projects link
 
 **These projects are fully responsive too**
 
