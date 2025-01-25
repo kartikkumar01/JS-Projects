@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+/* css reset ends here */
+
+body {
+    font-size: 1.6rem;
+    font-family: Nunito, sans-serif;
+    background-color: rgb(56, 56, 56);
+    padding-inline: 5px;
+}
+
+#calculatorContainer {
+    width: 100%;
+    max-width: 350px;
+    background-color: black;
+    padding: 1rem 1.5rem 2rem 1.5rem;
+    border-radius: 15px;
+    margin: 10px auto;
+    min-height: 85vh;
+}
+
+#calculatorScreen{  
+    display: block;
+    width: 95%;
+    height: 6rem;
+    margin: 2rem auto;
+    background-color: inherit;
+    color: white;
+    font-size: 3rem;
+    border: none;
+    text-align: right;
+    font-weight: bold;
+}
+.row{
+    display: flex;
+    gap: 10px;
+    margin-block: 10px;
+}
+.btn{
+    font-weight: bold;
+    font-size: 2rem;
+    width: 100%;
+    aspect-ratio: 1/1;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.btn:active{
+    transform: scale(1.05);
+}
+
+/* Removing blue highlight on click in mobile */
+button {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.yellowBtn{
+    background-color: #ff9501;
+    color: white;
+}
+
+.greyBtn{
+    background-color:#a6a6a6;
+    color: rgb(33, 32, 32);
+}
+.blackBtn{
+    background-color:#333333;
+    color: white;
+}
