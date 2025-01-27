@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    padding-inline: 3rem;
+    background-color: rgb(37, 37, 37);
+    font-family: Nunito,sas-serif;
+}
+h1{
+    font-size: 2.4rem;
+}
+#qr-container{
+    width: 100%;
+    max-width: 400px;
+    margin:2rem auto;
+    padding: .1px 1rem;
+    background-color: white;
+    border-radius: .8rem;
+    box-shadow: 0 0 10px 0px rgb(97, 92, 92);
+}
+#qr-heading{
+    text-align: center;
+    margin-block: 1rem;
+}
+#qr-input{
+    display: block;
+    width: 100%;
+    margin-block: 1rem;
+    padding: .5rem .4rem;
+    font-size: 1.7rem;
+}
+
+#qr-button{
+    display: block;
+    width: 100%;
+    margin-block: 1rem;
+    background-color: rgb(13, 168, 13);
+    border: none;
+    padding: 1.5rem .1rem;
+    border-radius: .5rem;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+#qr-image{
+    display: block;
+    width: 40%;
+    margin-block: 2.5rem;
+    margin-inline:auto;
+}
+
+footer p, footer a{
+    color: white;
+    text-align: center;
+}
