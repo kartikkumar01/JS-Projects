@@ -9,3 +9,4 @@
 5. Pggc11 Bizzfest : https://pggc11-bizzfest.netlify.app/
 6. Color Changer : https://005-color-changer.netlify.app/
 7. Bmi calculator : https://006-bmi-calculator.netlify.app/
+8. Digital Clock : https://007-digital-clock.netlify.app/
