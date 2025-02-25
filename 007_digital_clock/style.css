@@ -1,0 +1,21 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+#display{
+  padding: 15px;
+  background-color: rgb(28, 5, 85);
+  border-radius: 10px;
+  margin: 50px auto;
+  width: fit-content;
+  font-size: 25px;
+  font-weight: bolder;
+}
+div.top{
+  background-color: white;
+  padding: 20px;
+  border: 2px dotted black;
+  text-align: center;
+  color: black;
+}  
