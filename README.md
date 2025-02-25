@@ -7,3 +7,5 @@
 3. QR code generator : https://003-qr-code-generator.netlify.app/
 4. Password strength Checker : https://004-password-strength-checker.netlify.app/
 5. Pggc11 Bizzfest : https://pggc11-bizzfest.netlify.app/
+6. Color Changer : https://005-color-changer.netlify.app/
+7. Bmi calculator : https://006-bmi-calculator.netlify.app/
