@@ -71,6 +71,7 @@ function endGame(){
 }
 
 function startGame(){
+    random = Math.round(Math.random() * 1000 + 1)
     playAgainBtn.remove()
     noOfGuesses = 8
     remainingGuesses.innerText = 8
