@@ -1,7 +1,6 @@
 //TRY TO BREAK THE CODE IN DIFFERENT FUNCTIONS
 
 let random = Math.round(Math.random() * 1000 + 1)
-console.log(random);
 
 let noOfGuesses = 8
 
