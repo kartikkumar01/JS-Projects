@@ -8,25 +8,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="top">References : <a target="_blank" href="https://www.youtube.com/@chaiaurcode">Chai aur Code</a></div>
     
     <div id="wrapper">
-      <h1>Number guessing game</h1>
-    <p>Try and guess a random number between 1 and 100.</p>
-    <p>You have 10 attempts to guess the right number.</p>
+        <h1>Number guessing game</h1>
     </br>
-        <form class="form">
-            <label for="guessField" id="guess">Guess a number</label>
-            <input type="number" id="guessField" class="guessField">
-            <input type="submit" id="subt" value="Submit guess" class="guessSubmit">
-        </form>
-
-        <div class="resultParas">
-            <p >Previous Guesses: <span class="guesses"></span></p>
-            <p >Guesses Remaining: <span class="lastResult">10</span></p>
-            <p class="lowOrHi"></p>
-        </div>
+    <form class="form">
+        <label for="guessField" id="guess">Guess a number</label>
+        <input type="number" id="guessField" class="guessField">
+        <input type="submit" id="subt" value="Submit guess" class="guessSubmit">
+    </form>
+    
+    <div class="resultParas">
+        <p >Previous Guesses: <span class="guesses"></span></p>
+        <p >Guesses Remaining: <span class="lastResult">8</span></p>
+        <p class="lowOrHi">Status : <span class="status"></span></p>
     </div>
-    <script src="script.js"></script>
+    <div id="instructions">
+        <p>Try and guess a random number between <b>1</b> and <b>1000</b></p>
+    <p>You have 8 attempts to guess the right number.</p>
+</div>
+</div>
+<div class="top">References : <a target="_blank" href="https://www.youtube.com/@chaiaurcode">Chai aur Code</a></div>
+<script src="script.js"></script>
 </body>
 </html>
