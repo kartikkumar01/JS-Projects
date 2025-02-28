@@ -13,3 +13,4 @@ A collection of live JavaScript projects, all fully responsive and interactive.
 7. **BMI Calculator** → [Live Demo](https://006-bmi-calculator.netlify.app/)  
 8. **Digital Clock** → [Live Demo](https://007-digital-clock.netlify.app/)  
 9. **Guess the Number Game** → [Live Demo](https://guessinjs.netlify.app/)  
+10. **Disco Diwane** → [Live Demo](https://discodiwaneinjs.netlify.app/)  
